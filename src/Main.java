@@ -10,7 +10,7 @@ public class Main {
 
         sum = count(r.i, r.k);
 
-        System.out.println(sum);
+        System.out.println("The sum equals :"+sum);
     }
 
     public static int count(int x, int y){
