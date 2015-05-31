@@ -4,15 +4,18 @@
 public class Main {
 
     public static void main(String args[]){
+        int sum;
         Reader r  = new Reader();
         r.scan();
-//        int k = 2;
-//        int huj = count(k);
-//        System.out.println("empty");
+
+        sum = count(r.i, r.k);
+
+        System.out.println(sum);
     }
 
-    public static int count(int x){
-        x = x*2;
-        return x;
+    public static int count(int x, int y){
+        int res;
+        res = x + y;
+        return res;
     }
 }
